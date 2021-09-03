@@ -35,7 +35,6 @@ int main(){
     push(&stackA,70);
     push(&stackA,60);
     push(&stackA,80);
-    pop(&stackA);
     printf("top of the stack: %d\n", topOfStack(&stackA));
     printf("popped the stack: %d\n" , pop(&stackA));
     printf("after poping the stack top: %d\n", topOfStack(&stackA));  
